@@ -48,10 +48,6 @@ def tampilkan_subtyping_check(daftar: list):
 
 
 def tampil_ringkasan_gaji(daftar: list):
-    """
-    Menampilkan ringkasan total pengeluaran gaji perusahaan
-    dan rata-rata gaji per peran.
-    """
     cetak_heder("Ringkasan Pengeluaran Gaji")
     total_gaji     = sum(p.hitung_gaji() for p in daftar)
     gaji_per_peran = {}
