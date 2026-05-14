@@ -18,7 +18,6 @@ ROOT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, ROOT_DIR)
 
 def buat_data_pegawai():
-    """Membuat dan mengembalikan daftar objek pegawai."""
     staf1     = Staf("S001", "Budi Santoso",   "IT",        5_000_000, 10, 50_000)
     staf2     = Staf("S002", "Rina Amalia",    "Keuangan",  4_500_000,  5, 50_000)
     staf3     = Staf("S003", "Doni Pratama",   "Marketing", 4_800_000,  8, 50_000)
